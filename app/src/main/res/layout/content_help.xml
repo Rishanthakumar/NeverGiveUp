@@ -14,16 +14,14 @@
 
     <LinearLayout
         android:orientation="vertical"
-        android:layout_width="wrap_content"
-        android:layout_height="280dp"
-        android:weightSum="1"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true">
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1">
 
 
         <Button
-            android:layout_width="253dp"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
             android:id="@+id/setBack"
             android:layout_gravity="center_horizontal"
             android:layout_weight="0.20"
@@ -32,8 +30,8 @@
             android:textColor="#FFFFFF"/>
 
         <Button
-            android:layout_width="255dp"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
             android:text="Depression"
             android:id="@+id/depressionButton"
             android:layout_gravity="center_horizontal"
@@ -42,8 +40,8 @@
             android:textColor="#FFFFFF"/>
 
         <Button
-            android:layout_width="256dp"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
             android:text="Inspiration"
             android:id="@+id/inspirationButton"
             android:layout_gravity="center_horizontal"
@@ -52,11 +50,10 @@
             android:textColor="#FFFFFF"/>
 
         <Button
-            android:layout_width="256dp"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
             android:text="Failure"
             android:id="@+id/failureButton"
-            android:layout_gravity="center_horizontal"
             android:layout_weight="0.19"
             android:textSize="20sp"
             android:textColor="#FFFFFF"/>

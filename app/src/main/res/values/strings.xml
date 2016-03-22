@@ -23,4 +23,6 @@
     <string name="awards_recognition"> <u> Awards &amp; Recognition </u> </string>
     <string name="title_activity_detail_goal">DetailGoalActivity</string>
 
+    <string name="facebook_app_id">790304594435797</string>
+
 </resources>

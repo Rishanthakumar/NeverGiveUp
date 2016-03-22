@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_id": "nevergiveup-a6db",
+    "project_number": "249031905735",
+    "name": "NeverGiveUp"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249031905735:android:30af9eaea3a990bf",
+        "client_id": "android:com.example.rishanthakumarrasarathinam.nevergiveup",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.example.rishanthakumarrasarathinam.nevergiveup",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249031905735-e0ivmd4imto4e5tehi73i2dfl1r1e1q0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rishanthakumarrasarathinam.nevergiveup",
+            "certificate_hash": "474DCB695DD50B165D1C5DE3BB22AC09E314A59C"
+          }
+        },
+        {
+          "client_id": "249031905735-12m7jjf048lk677f8bg5hr9ne4e0h0h4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

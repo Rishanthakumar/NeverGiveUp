@@ -39,7 +39,7 @@
                 android:layout_height="150dp"
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="60dp"
+                android:layout_marginTop="30dp"
                 android:src="@drawable/logo" />
 
 
@@ -76,7 +76,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/password"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="20dp"
                 android:layout_centerHorizontal="true">
 
                 <Button
@@ -97,6 +97,15 @@
                     android:text="Register" />
 
             </LinearLayout>
+
+            <com.facebook.login.widget.LoginButton
+                android:id="@+id/login_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp" />
+
         </LinearLayout>
     </ScrollView>
 
