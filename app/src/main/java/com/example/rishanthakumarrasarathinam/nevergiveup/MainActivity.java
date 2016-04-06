@@ -8,9 +8,12 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.TabHost;
+
+import com.facebook.FacebookSdk;
 
 public class MainActivity extends TabActivity {
 
@@ -18,8 +21,12 @@ public class MainActivity extends TabActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        FacebookSdk.sdkInitialize(getApplicationContext());
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Bundle nam = getIntent().getExtras();
+
 
         //refer the tab in the xml file
         tabHost = (TabHost) findViewById(android.R.id.tabhost);
@@ -29,8 +36,6 @@ public class MainActivity extends TabActivity {
         TabHost.TabSpec tab2 = tabHost.newTabSpec("2");
         TabHost.TabSpec tab3 = tabHost.newTabSpec("3");
         TabHost.TabSpec tab4 = tabHost.newTabSpec("4");
-
-
 
         //set the tab value and create intents to navigate
         tab1.setIndicator("Me");

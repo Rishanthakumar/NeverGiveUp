@@ -9,22 +9,35 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.rishanthakumarrasarathinam.nevergiveup.SocialLoginActivity">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView_main"
+        android:src="@drawable/logo"
+        android:layout_above="@+id/login_button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
     <com.facebook.login.widget.LoginButton
         android:id="@+id/login_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_gravity="center_horizontal"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="198dp" />
+        android:layout_marginBottom="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="22sp"/>
 
-    <com.google.android.gms.common.SignInButton
-        android:id="@+id/sign_in_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/login_button"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="41dp" />
+    <!--<com.google.android.gms.common.SignInButton-->
+        <!--android:id="@+id/sign_in_button"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentEnd="true"-->
+        <!--android:layout_marginBottom="35dp" />-->
+
 
 
 </RelativeLayout>

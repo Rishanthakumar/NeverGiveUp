@@ -12,4 +12,13 @@
     tools:context="com.example.rishanthakumarrasarathinam.nevergiveup.SettingsActivity"
     tools:showIn="@layout/activity_settings">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView_logout"
+        android:src="@drawable/fb_logout_image"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="38dp" />
 </RelativeLayout>
